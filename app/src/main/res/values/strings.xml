@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FarmaTica</string>
+    <string name="et_Email">Email</string>
+    <string name="et_Password">Password</string>
+    <string name="et_NombreUsuario">Nombre del Usuario</string>
+    <string name="bt_iniciarSesion">Iniciar Sesion</string>
+    <string name="bt_Registrarse">Registrarse</string>
+    <string name="bt_RegistrarCuenta">Registrar Cuenta</string>
 </resources>
