@@ -3,7 +3,16 @@
     <string name="et_Email">Email</string>
     <string name="et_Password">Password</string>
     <string name="et_NombreUsuario">Nombre del Usuario</string>
+    <string name="et_Direccion">Dirección</string>
+    <string name="et_Telefono">Teléfono</string>
+    <string name="et_NumeroTarjeta">Número de la Tarjeta</string>
+    <string name="et_MiPerfil">Mi Perfil</string>
     <string name="bt_iniciarSesion">Iniciar Sesion</string>
     <string name="bt_Registrarse">Registrarse</string>
     <string name="bt_RegistrarCuenta">Registrar Cuenta</string>
+    <string name="bt_PerfilUsuario">Perfil de Usuario</string>
+    <string name="bt_Medicamentos">Medicamentos</string>
+    <string name="bt_HistorialCompras">Historial de Compras</string>
+    <string name="bt_Contactos">Contactos</string>
+    <string name="bt_ActualizarPerfil">Actualizar perfil</string>
 </resources>
