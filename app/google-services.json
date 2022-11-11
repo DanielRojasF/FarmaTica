@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450970217762",
+    "project_id": "farmatica-3dcbf",
+    "storage_bucket": "farmatica-3dcbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450970217762:android:2f2cb8531754dd1b61097b",
+        "android_client_info": {
+          "package_name": "com.farmatica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450970217762-fnlip8t65jmhtch59e1s2j47duqel52j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyc-9-QoKVKyPOSj-18bjUt81FIesD4n4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450970217762-fnlip8t65jmhtch59e1s2j47duqel52j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
