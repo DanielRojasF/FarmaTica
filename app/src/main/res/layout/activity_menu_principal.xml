@@ -7,7 +7,7 @@
     tools:context=".Menu_Principal">
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/bt_Contactos"
         android:layout_width="335dp"
         android:layout_height="61dp"
         android:layout_marginTop="32dp"
@@ -18,10 +18,10 @@
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_Historial_Compras" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/bt_Historial_Compras"
         android:layout_width="335dp"
         android:layout_height="61dp"
         android:layout_marginTop="32dp"
@@ -32,34 +32,36 @@
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_Medicamentos" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/bt_Medicamentos"
         android:layout_width="335dp"
         android:layout_height="61dp"
         android:layout_marginTop="32dp"
         android:backgroundTint="@color/red"
         android:drawableLeft="@drawable/medicamentos"
+        android:onClick="abrirMedicamentos"
         android:text="@string/bt_Medicamentos"
         android:textSize="16sp"
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_Perfil_Usuario" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bt_Perfil_Usuario"
         android:layout_width="335dp"
         android:layout_height="61dp"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="34dp"
         android:backgroundTint="@color/red"
         android:drawableLeft="@drawable/perfilicono"
+        android:onClick="abrirPerfil"
         android:text="@string/bt_PerfilUsuario"
         android:textSize="16sp"
         app:cornerRadius="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintBottom_toTopOf="@id/bt_Perfil_Usuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -73,4 +75,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_farmatica" />
+
+    <ImageButton
+        android:id="@+id/bt_logoff"
+        android:layout_width="58dp"
+        android:layout_height="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logoff" />
 </androidx.constraintlayout.widget.ConstraintLayout>

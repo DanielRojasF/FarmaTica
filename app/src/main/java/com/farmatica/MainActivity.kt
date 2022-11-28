@@ -3,6 +3,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.KeyEvent
 import android.widget.Toast
 import com.farmatica.databinding.ActivityMainBinding
 import com.google.firebase.FirebaseApp
@@ -79,4 +80,6 @@ class MainActivity : AppCompatActivity() {
         val usuario = auth.currentUser
         actualiza(usuario)
     }
+
+
 }
