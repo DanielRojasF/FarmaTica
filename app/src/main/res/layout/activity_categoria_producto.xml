@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/constra"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView"
@@ -18,53 +17,87 @@
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="Categorias de nuestros productos " />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="271dp"
-        android:layout_height="146dp"
-        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
         android:backgroundTint="@color/red"
+        android:drawableLeft="@drawable/personal3"
         android:text="Cuidado Personal"
         android:textStyle="bold"
+        app:iconSize="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:rippleColor="#BD0000" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="271dp"
-        android:layout_height="155dp"
-        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
         android:backgroundTint="@color/red"
+        android:drawableLeft="@drawable/cata1"
         android:text="Dermatologia"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
         app:rippleColor="#BD0000" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="271dp"
-        android:layout_height="155dp"
-        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
         android:backgroundTint="@color/red"
+        android:drawableLeft="@drawable/cata2"
         android:text="Anticonceptivos y Hormonal"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
         app:rippleColor="#BD0000" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="271dp"
-        android:layout_height="155dp"
-        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
         android:backgroundTint="@color/red"
-        android:text="Dermatologia"
+        android:drawableLeft="@drawable/cata3"
+        android:text="Sistema Endocrino y Diabetes"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
         app:rippleColor="#BD0000" />
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:backgroundTint="#0CFFFFFF"
         android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
         app:srcCompat="@drawable/ic_baseline_arrow_back" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
