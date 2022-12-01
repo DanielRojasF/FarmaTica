@@ -41,4 +41,10 @@
     <string name="et_soporteTecnico">Soporte Técnico</string>
     <string name="et_InfoCentralSoporte">Central: 2525-9595</string>
     <string name="et_InfoSoporte">Acá podrás encontrar información de contacto con el área de Soporte Técnico por si tienes algún problema con la aplicación.</string>
+    <string name="et_historialPagos">Historial de Pagos</string>
+    <string name="et_fechaPago1">15-Abril-22</string>
+    <string name="et_fechaPago2">15-Marzo-22</string>
+    <string name="et_fechaPago3">15-Febrero-22</string>
+    <string name="et_fechaPago4">15-Enero-22</string>
+    <string name="et_precioPago">$15</string>
 </resources>
