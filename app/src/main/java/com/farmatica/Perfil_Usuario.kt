@@ -10,4 +10,9 @@ class Perfil_Usuario  : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_perfil_usuario)
     }
+
+    fun abrirActualizarUsuario(view: View){
+        val intent = Intent(this,Actualizar_Usuario::class.java).apply {  }
+        startActivity(intent)
+    }
 }
