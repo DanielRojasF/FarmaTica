@@ -32,11 +32,12 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="163dp"
-                android:layout_height="149dp"
-                app:srcCompat="@drawable/alcohol"
-                tools:layout_editor_absoluteX="249dp"
-                tools:layout_editor_absoluteY="0dp" />
+                android:layout_width="157dp"
+                android:layout_height="134dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/alcohol" />
 
             <ImageView
                 android:id="@+id/imageView18"
@@ -65,14 +66,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="105dp"
                 android:text="Alcohol Desnaturalizado 1000 ml "
                 android:textColor="#0B0B0B"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toStartOf="@+id/imageView4"
-                app:layout_constraintHorizontal_bias="0.186"
+                app:layout_constraintHorizontal_bias="0.188"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -92,11 +93,14 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="163dp"
-                android:layout_height="149dp"
-                app:srcCompat="@drawable/apositos"
-                tools:layout_editor_absoluteX="257dp"
-                tools:layout_editor_absoluteY="1dp" />
+                android:layout_width="123dp"
+                android:layout_height="132dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.444"
+                app:srcCompat="@drawable/apositos" />
 
             <ImageView
                 android:id="@+id/imageView17"
@@ -125,7 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="105dp"
                 android:text="Apósitos Para Callos Caja X 6 "
                 android:textAlignment="viewStart"
@@ -133,7 +137,7 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toStartOf="@+id/imageView5"
-                app:layout_constraintHorizontal_bias="0.18"
+                app:layout_constraintHorizontal_bias="0.192"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -153,11 +157,13 @@
 
             <ImageView
                 android:id="@+id/imageView7"
-                android:layout_width="163dp"
-                android:layout_height="149dp"
-                app:srcCompat="@drawable/blixtex"
-                tools:layout_editor_absoluteX="257dp"
-                tools:layout_editor_absoluteY="1dp" />
+                android:layout_width="122dp"
+                android:layout_height="134dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/blixtex" />
 
             <ImageView
                 android:id="@+id/imageView16"
@@ -193,7 +199,7 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toStartOf="@+id/imageView7"
-                app:layout_constraintHorizontal_bias="0.18"
+                app:layout_constraintHorizontal_bias="0.296"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -213,11 +219,12 @@
 
             <ImageView
                 android:id="@+id/imageView8"
-                android:layout_width="163dp"
-                android:layout_height="149dp"
-                app:srcCompat="@drawable/cepillo"
-                tools:layout_editor_absoluteX="270dp"
-                tools:layout_editor_absoluteY="4dp" />
+                android:layout_width="122dp"
+                android:layout_height="108dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/cepillo" />
 
             <ImageView
                 android:id="@+id/imageView15"
