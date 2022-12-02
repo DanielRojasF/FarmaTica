@@ -47,4 +47,9 @@
     <string name="et_fechaPago3">15-Febrero-22</string>
     <string name="et_fechaPago4">15-Enero-22</string>
     <string name="et_precioPago">$15</string>
+    <string name="bt_CuidadoPersonal">CUIDADO PERSONAL</string>
+    <string name="bt_Dermatologia">DERMATOLOGIA</string>
+    <string name="bt_AnticonseptivosYHormonal">ANTICONCEPTIVOS Y HORMONAL</string>
+    <string name="bt_Endocrinologia">ENDOCRINOLOGIA</string>
+
 </resources>

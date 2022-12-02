@@ -28,6 +28,7 @@
         android:layout_marginTop="32dp"
         android:backgroundTint="@color/red"
         android:drawableLeft="@drawable/historial"
+        android:onClick="abrirHistorialPagos"
         android:text="@string/bt_HistorialCompras"
         android:textSize="16sp"
         app:cornerRadius="20dp"

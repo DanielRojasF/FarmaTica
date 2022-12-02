@@ -34,6 +34,10 @@ class Menu_Principal : AppCompatActivity() {
         val intent = Intent(this,Contactos::class.java).apply {  }
         startActivity(intent)
     }
+    fun abrirHistorialPagos(view:View){
+        val intent = Intent(this,Historial_Pagos::class.java).apply {  }
+        startActivity(intent)
+    }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         return super.onCreateOptionsMenu(menu)

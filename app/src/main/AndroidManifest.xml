@@ -27,6 +27,13 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".Historial_Pagos"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Actualizar_Usuario"
             android:exported="true">
             <meta-data
@@ -63,6 +70,34 @@
         </activity>
         <activity
             android:name=".Categoria_Producto"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Cuidado_Personal"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Dermatologia"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AnticonceptivosHormonales"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Endocrinologia"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
