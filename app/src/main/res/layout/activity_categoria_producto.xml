@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -49,7 +54,6 @@
         android:layout_width="335dp"
         android:layout_height="61dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="34dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@color/red"
@@ -62,7 +66,6 @@
         app:layout_constraintBottom_toTopOf="@+id/bt_AnticonseptivosYHormonal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_CuidadoPersonal"
         app:rippleColor="#BD0000" />
 
     <Button
@@ -70,7 +73,7 @@
         android:layout_width="335dp"
         android:layout_height="61dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="70dp"
         android:backgroundTint="@color/red"
         android:drawableLeft="@drawable/cata2"
@@ -120,3 +123,4 @@
         app:rippleColor="#BD0000" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
