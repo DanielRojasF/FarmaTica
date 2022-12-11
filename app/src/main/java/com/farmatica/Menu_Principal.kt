@@ -20,11 +20,6 @@ class Menu_Principal : AppCompatActivity() {
         finish()
     }
 
-    fun abrirPerfil(view:View){
-        val intent = Intent(this,Perfil_Usuario::class.java).apply {  }
-        startActivity(intent)
-    }
-
     fun abrirMedicamentos(view:View){
         val intent = Intent(this,Categoria_Producto::class.java).apply {  }
         startActivity(intent)
@@ -32,10 +27,6 @@ class Menu_Principal : AppCompatActivity() {
 
     fun abrirContactos(view:View){
         val intent = Intent(this,Contactos::class.java).apply {  }
-        startActivity(intent)
-    }
-    fun abrirHistorialPagos(view:View){
-        val intent = Intent(this,Historial_Pagos::class.java).apply {  }
         startActivity(intent)
     }
 
