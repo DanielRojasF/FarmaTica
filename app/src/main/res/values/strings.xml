@@ -52,4 +52,6 @@
     <string name="bt_AnticonseptivosYHormonal">ANTICONCEPTIVOS Y HORMONAL</string>
     <string name="bt_Endocrinologia">ENDOCRINOLOGIA</string>
 
+    <string name="default_web_client_id_r" translatable="false">450970217762-fnlip8t65jmhtch59e1s2j47duqel52j.apps.googleusercontent.com</string>
+
 </resources>
