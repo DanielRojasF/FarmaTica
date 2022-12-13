@@ -12,7 +12,7 @@
     <string name="bt_RegistrarCuenta">Registrar Cuenta</string>
     <string name="bt_PerfilUsuario">Perfil de Usuario</string>
     <string name="bt_Medicamentos">Medicamentos</string>
-    <string name="bt_HistorialCompras">Historial de Compras</string>
+    <string name="bt_CarritoCompras">Carrito de Compras</string>
     <string name="bt_Contactos">Contactos</string>
     <string name="bt_ActualizarPerfil">Actualizar perfil</string>
     <string name="bt_SoporteTecnico">Soporte Técnico</string>
