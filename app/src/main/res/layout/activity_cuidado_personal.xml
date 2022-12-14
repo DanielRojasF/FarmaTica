@@ -35,8 +35,8 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="167dp"
-                android:layout_height="110dp"
+                android:layout_width="165dp"
+                android:layout_height="100dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -98,7 +98,7 @@
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="165dp"
-                android:layout_height="110dp"
+                android:layout_height="100dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -161,7 +161,7 @@
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="165dp"
-                android:layout_height="110dp"
+                android:layout_height="100dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -217,13 +217,12 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp">
+            android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/imageView8"
-                android:layout_width="160dp"
-                android:layout_height="108dp"
+                android:layout_width="165dp"
+                android:layout_height="100dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"

@@ -125,6 +125,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
     //Esto hara que una vez autenticado.... no pida mas autenticarse a menos que se cierre la sesion
     //public override fun onStart() {
     //    super.onStart()

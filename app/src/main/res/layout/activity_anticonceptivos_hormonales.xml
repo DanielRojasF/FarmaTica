@@ -36,7 +36,7 @@
             <ImageView
                 android:id="@+id/imageView32"
                 android:layout_width="165dp"
-                android:layout_height="110dp"
+                android:layout_height="100dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -107,8 +107,8 @@
 
             <ImageView
                 android:id="@+id/imageView33"
-                android:layout_width="163dp"
-                android:layout_height="110dp"
+                android:layout_width="165dp"
+                android:layout_height="100dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -171,7 +171,7 @@
             <ImageView
                 android:id="@+id/imageView34"
                 android:layout_width="165dp"
-                android:layout_height="110dp"
+                android:layout_height="100dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -222,8 +222,8 @@
 
             <ImageView
                 android:id="@+id/imageView35"
-                android:layout_width="163dp"
-                android:layout_height="110dp"
+                android:layout_width="165dp"
+                android:layout_height="100dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"

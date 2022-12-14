@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <LinearLayout
+      android:id="@+id/Layout_Base"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/Layout_Pago"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <Button
+          android:id="@+id/bt_Pagar"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:backgroundTint="#FD0000"
+          android:text="Pagar" />
+
+      <Button
+          android:id="@+id/bt_Cancelar"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:backgroundTint="#938E8E"
+          android:text="Cancelar"
+          android:textColor="#000000" />
+    </LinearLayout>
+  </LinearLayout>
+</ScrollView>
