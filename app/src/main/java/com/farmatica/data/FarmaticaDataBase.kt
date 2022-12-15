@@ -3,14 +3,16 @@ package com.farmatica.data
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.lugares.model.Lugar
-@Database(entities=[Lugar::class], version = 1, exportSchema = false)
-abstract class LugarDatabase : RoomDatabase(){
-    abstract fun lugarDao() : LugarDao
+import com.farmatica.model.Propetario
+
+@Database(entities=[Propetario::class], version = 1, exportSchema = false)
+abstract class FarmaticaDataBase : RoomDatabase(){
+    abstract fun PropetarioDao() : PropetarioDao
+
     companion object {
         @Volatile
-        private var INSTANCE: LugarDatabase? = null
-        fun getDatabase(context: android.content.Context) : LugarDatabase {
+        private var INSTANCE: FarmaticaDataBase? = null
+        fun getDatabase(context: android.content.Context) : FarmaticaDataBase {
             val temp = INSTANCE
             if (temp!=null) {
                 return temp
@@ -18,8 +20,8 @@ abstract class LugarDatabase : RoomDatabase(){
             synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
-                    LugarDatabase::class.java,
-                    "lugar_database"
+                    FarmaticaDataBase::class.java,
+                    "FarmaticaDataBase"
                 ).build()
                 INSTANCE=instance
                 return instance

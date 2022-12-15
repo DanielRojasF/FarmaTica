@@ -7,16 +7,17 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.lugares.model.Lugar
+import com.farmatica.model.Propetario
+
 @Dao
 interface PropetarioDao {
     //CRUD Create Read Update Delete
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun addLugar(lugar: Lugar)
+    suspend fun addLugar(propetario: Propetario)
     @Update(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun updateLugar(lugar: Lugar)
+    suspend fun updateLugar(propetario: Propetario)
     @Delete
-    suspend fun deleteLugar(lugar: Lugar)
-    @Query("SELECT * FROM LUGAR")
-    fun getLugares() : LiveData<List<Lugar>>
+    suspend fun deleteLugar(propetario: Propetario)
+    @Query("SELECT * FROM Propetario")
+    fun getLugares() : LiveData<List<Propetario>>
 }
