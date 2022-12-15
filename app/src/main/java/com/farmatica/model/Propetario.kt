@@ -1,21 +1,20 @@
 package com.farmatica.model
+import androidx.room.*
 
-import android.os.Parcelable
-import androidx.room.ColumnInfo
-import androidx.room.Entity
-import androidx.room.ForeignKey
-import androidx.room.PrimaryKey
-import kotlinx.parcelize.Parcelize
 
-@Parcelize
-@Entity(tableName="propetario")
+@Entity
 data class Propetario(
-    @PrimaryKey(autoGenerate = true)
-    val id: Int,
-    @ColumnInfo(name="nombre")
-    val nombre: String,
-    @ColumnInfo(name="idTARJETA")
-    val latitud: Double?,
+    @PrimaryKey val idPropetario: Int,
+    val nombrePropietario: String,
+    val direccionPropietario: String,
+)
 
-
-) : Parcelable
+@Entity
+data class TarjetasXPropietario(
+    @Embedded val propetario: Propetario,
+    @Relation(
+            parentColumn = "idPropietario",
+            entityColumn = "idTarjeta",
+    )
+    val tarjetas: List<Tarjeta>
+)
