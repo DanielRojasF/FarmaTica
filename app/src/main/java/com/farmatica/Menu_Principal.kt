@@ -20,6 +20,11 @@ class Menu_Principal : AppCompatActivity() {
         finish()
     }
 
+    fun abrirCarritoCompras(view: View){
+        val intent = Intent(this,Carrito_Compras::class.java).apply {  }
+        startActivity(intent)
+    }
+
     fun abrirMedicamentos(view:View){
         val intent = Intent(this,Categoria_Producto::class.java).apply {  }
         startActivity(intent)
