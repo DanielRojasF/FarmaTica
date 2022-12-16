@@ -4,11 +4,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.appcompat.view.menu.MenuView.ItemView
 import androidx.recyclerview.widget.RecyclerView
-import com.farmatica.databinding.ListaProductoBinding
 
-class Myadapter( private val productoList: ArrayList<Pruducto>): RecyclerView.Adapter<Myadapter.MyViewHolder>() {
+class Myadapter( private val productoList: ArrayList<Producto>): RecyclerView.Adapter<Myadapter.MyViewHolder>() {
     class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         val tvName: TextView = itemView.findViewById(R.id.Nombre)
         val tvDescripcion: TextView = itemView.findViewById(R.id.Descripcion)

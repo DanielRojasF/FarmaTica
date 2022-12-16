@@ -1,29 +1,36 @@
 package com.farmatica
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
+import
 
 class RecyclerViewActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
-    private lateinit var productoList: ArrayList<Pruducto>
-    private var db = Firabase.firestore
+    private lateinit var productoList: ArrayList<Producto>
+    private var db = Firebase.firestore
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.lista_producto)
+
+
         recyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
-       productoList = arrayListOf()
+
+        productoList = arrayListOf()
+
         db = FirebaseFirestore.getInstance()
-        db.collection("producto").get().addOnSuccessListener{
+
+        db.collection("Productos").get().addOnSuccessListener{
             if (!it.isEmpty){
                 for (data in it.documents){
-                    val producto: Pruducto? = data.toObject(Pruducto::class.java)
+                    val producto: Producto? = data.toObject(Producto::class.java)
                     if (producto != null){
 
                         productoList.add(producto)
