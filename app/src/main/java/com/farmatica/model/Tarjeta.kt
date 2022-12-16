@@ -1,12 +1,16 @@
 package com.farmatica.model
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
 
-@Entity
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class Tarjeta(
-    @PrimaryKey val idTarjeta: Int,
+    var idTarjeta: String,
     val numTarjeta: Int,
     val fechaExp: String,
     val codSeguridad: Int,
-)
+) : Parcelable{
+    constructor():
+            this("",0,"",0)
+}

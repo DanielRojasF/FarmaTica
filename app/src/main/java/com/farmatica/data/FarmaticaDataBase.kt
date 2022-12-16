@@ -3,11 +3,11 @@ package com.farmatica.data
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.farmatica.model.Propetario
+import com.farmatica.model.Propietario
 
-@Database(entities=[Propetario::class], version = 1, exportSchema = false)
+@Database(entities=[Propietario::class], version = 1, exportSchema = false)
 abstract class FarmaticaDataBase : RoomDatabase(){
-    abstract fun PropetarioDao() : PropetarioDao
+    abstract fun farmaticaDao() : TarjetaDao
 
     companion object {
         @Volatile

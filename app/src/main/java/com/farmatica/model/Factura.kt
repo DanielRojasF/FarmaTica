@@ -1,32 +1,13 @@
 package com.farmatica.model
-import androidx.room.*
-import androidx.room.Embedded
-import androidx.room.Entity
-import androidx.room.PrimaryKey
-import androidx.room.Relation
 
-@Entity
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class Factura (
-    @PrimaryKey val idFactura: Int,
+    var idFactura: String,
     val montoFactura: Double,
-)
-
-@Entity
-data class FacturasXUsuario(
-    @Embedded val propetario: Propetario,
-    @Relation(
-        parentColumn = "idPropietario",
-        entityColumn = "idFactura",
-    )
-    val facturas: List<Factura>
-)
-
-@Entity
-data class ProductosXFactura(
-    @Embedded val factura: Factura,
-    @Relation(
-        parentColumn = "idFactura",
-        entityColumn = "idProducto",
-    )
-    val productos: List<Producto>
-)
+): Parcelable {
+    constructor():
+            this("",0.0)
+}
